@@ -1,0 +1,27 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Todo List</title>
+</head>
+<body>
+<div class="wrapper">
+    <div class="module">
+        <form class="form" id="form">
+            <h1>TODO List</h1>
+            <label for="task">Enter your task:</label>
+            <input type="text" class="input" id="task" name="task">
+            <button type="submit" class="add-task-button">ADD TASK</button>
+        </form>
+        <ul class="task_list" id="task-list"></ul>
+    </div>
+</div>
+<template id="todo-template">
+    <li class="todo" id="task__div">
+        <p class="task-text" id="task-text"></p>
+        <button class="delete-button" id="delete-button">X</button>
+    </li>
+</template>
+</body>
+
+</html>
